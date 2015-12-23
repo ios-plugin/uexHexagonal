@@ -31,11 +31,11 @@
 #pragma mark View lifecycle
 
 - (UIImage *)getImageFromLocalFile:(NSString*)imageName{
-	return [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:imageName ofType:@"png"]];
+	return [UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.png",imageName]]];
 }
 
 - (UIImage *)getImageFromLocalFile_jpg:(NSString*)imageName{
-	return [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:imageName ofType:@"jpg"]];
+    return [UIImage imageWithContentsOfFile:[[UEX_BUNDLE resourcePath] stringByAppendingPathComponent:[NSString stringWithFormat:@"%@.jpg",imageName]]];
 }
 
 //创建列表
@@ -65,12 +65,12 @@
     }else{
         isSetPrismParam = NO;
         self.dataArray = [NSMutableArray arrayWithObjects:
-                          @"uexHexagonal/one",
-                          @"uexHexagonal/two",
-                          @"uexHexagonal/three",
-                          @"uexHexagonal/four",
-                          @"uexHexagonal/five",
-                          @"uexHexagonal/six",
+                          @"one",
+                          @"two",
+                          @"three",
+                          @"four",
+                          @"five",
+                          @"six",
                           nil];
         self.nameArray = [NSMutableArray arrayWithObjects:
                           @"北京市国家税务局",
@@ -107,7 +107,7 @@
     width=10; height=20; x=(frame.size.width-width)/2.0; y=frame.size.height-30-height;
     UIImageView* jiantou_imgView = [[UIImageView alloc] initWithFrame:CGRectMake(x, y, width, height)];
     jiantou_imgView.backgroundColor=[UIColor clearColor];
-    [jiantou_imgView setImage:[self getImageFromLocalFile:@"uexHexagonal/jiantou"]];
+    [jiantou_imgView setImage:[self getImageFromLocalFile:@"jiantou"]];
     [self addSubview:jiantou_imgView];
     [jiantou_imgView release];
     
@@ -170,7 +170,7 @@
         UIImageView* shadow_imgView = [[UIImageView alloc] initWithFrame:view.bounds];
         shadow_imgView.tag = 9998;
         [shadow_imgView setHidden:NO];
-        [shadow_imgView setImage:[self getImageFromLocalFile:@"uexHexagonal/shadow"]];
+        [shadow_imgView setImage:[self getImageFromLocalFile:@"shadow"]];
         shadow_imgView.backgroundColor=[UIColor clearColor];
         [view addSubview:shadow_imgView];
         [shadow_imgView release];

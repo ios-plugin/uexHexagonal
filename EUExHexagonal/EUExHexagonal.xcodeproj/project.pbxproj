@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42EE60C41C2A9886007CFCB4 /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60BC1C2A9886007CFCB4 /* five.png */; };
+		42EE60C51C2A9886007CFCB4 /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60BD1C2A9886007CFCB4 /* four.png */; };
+		42EE60C61C2A9886007CFCB4 /* jiantou.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60BE1C2A9886007CFCB4 /* jiantou.png */; };
+		42EE60C71C2A9886007CFCB4 /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60BF1C2A9886007CFCB4 /* one.png */; };
+		42EE60C81C2A9886007CFCB4 /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60C01C2A9886007CFCB4 /* shadow.png */; };
+		42EE60C91C2A9886007CFCB4 /* six.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60C11C2A9886007CFCB4 /* six.png */; };
+		42EE60CA1C2A9886007CFCB4 /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60C21C2A9886007CFCB4 /* three.png */; };
+		42EE60CB1C2A9886007CFCB4 /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60C31C2A9886007CFCB4 /* two.png */; };
 		5A501253188FB9D00022E07C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A501252188FB9D00022E07C /* Foundation.framework */; };
 		5A50125A188FB9D00022E07C /* EUExHexagonal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501259188FB9D00022E07C /* EUExHexagonal.m */; };
 		5A501291188FBA220022E07C /* BBCyclingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A50127F188FBA220022E07C /* BBCyclingLabel.m */; };
@@ -28,7 +36,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		5A50124F188FB9D00022E07C /* libEUExHexagonal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEUExHexagonal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EE60B61C2A9654007CFCB4 /* uexHexagonal.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uexHexagonal.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		42EE60BC1C2A9886007CFCB4 /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
+		42EE60BD1C2A9886007CFCB4 /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		42EE60BE1C2A9886007CFCB4 /* jiantou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jiantou.png; sourceTree = "<group>"; };
+		42EE60BF1C2A9886007CFCB4 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		42EE60C01C2A9886007CFCB4 /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		42EE60C11C2A9886007CFCB4 /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = six.png; sourceTree = "<group>"; };
+		42EE60C21C2A9886007CFCB4 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		42EE60C31C2A9886007CFCB4 /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
+		5A50124F188FB9D00022E07C /* libEUExHexagonal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEUExHexagonal.a; path = libuexHexagonal.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A501252188FB9D00022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A501256188FB9D00022E07C /* EUExHexagonal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExHexagonal-Prefix.pch"; sourceTree = "<group>"; };
 		5A501259188FB9D00022E07C /* EUExHexagonal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExHexagonal.m; sourceTree = "<group>"; };
@@ -58,6 +75,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		42EE60B31C2A9654007CFCB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A50124C188FB9D00022E07C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -69,10 +93,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42EE60B71C2A9654007CFCB4 /* uexHexagonalBundle */ = {
+			isa = PBXGroup;
+			children = (
+				42EE60BC1C2A9886007CFCB4 /* five.png */,
+				42EE60BD1C2A9886007CFCB4 /* four.png */,
+				42EE60BE1C2A9886007CFCB4 /* jiantou.png */,
+				42EE60BF1C2A9886007CFCB4 /* one.png */,
+				42EE60C01C2A9886007CFCB4 /* shadow.png */,
+				42EE60C11C2A9886007CFCB4 /* six.png */,
+				42EE60C21C2A9886007CFCB4 /* three.png */,
+				42EE60C31C2A9886007CFCB4 /* two.png */,
+			);
+			path = uexHexagonalBundle;
+			sourceTree = "<group>";
+		};
 		5A501246188FB9D00022E07C = {
 			isa = PBXGroup;
 			children = (
 				5A501254188FB9D00022E07C /* EUExHexagonal */,
+				42EE60B71C2A9654007CFCB4 /* uexHexagonalBundle */,
 				5A501251188FB9D00022E07C /* Frameworks */,
 				5A501250188FB9D00022E07C /* Products */,
 			);
@@ -82,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				5A50124F188FB9D00022E07C /* libEUExHexagonal.a */,
+				42EE60B61C2A9654007CFCB4 /* uexHexagonal.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,6 +218,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		42EE60B51C2A9654007CFCB4 /* uexHexagonalBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42EE60BB1C2A9654007CFCB4 /* Build configuration list for PBXNativeTarget "uexHexagonalBundle" */;
+			buildPhases = (
+				42EE60B21C2A9654007CFCB4 /* Sources */,
+				42EE60B31C2A9654007CFCB4 /* Frameworks */,
+				42EE60B41C2A9654007CFCB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = uexHexagonalBundle;
+			productName = uexHexagonalBundle;
+			productReference = 42EE60B61C2A9654007CFCB4 /* uexHexagonal.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		5A50124E188FB9D00022E07C /* EUExHexagonal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A501272188FB9D00022E07C /* Build configuration list for PBXNativeTarget "EUExHexagonal" */;
@@ -202,6 +260,11 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = xll;
+				TargetAttributes = {
+					42EE60B51C2A9654007CFCB4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
 			};
 			buildConfigurationList = 5A50124A188FB9D00022E07C /* Build configuration list for PBXProject "EUExHexagonal" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -216,11 +279,37 @@
 			projectRoot = "";
 			targets = (
 				5A50124E188FB9D00022E07C /* EUExHexagonal */,
+				42EE60B51C2A9654007CFCB4 /* uexHexagonalBundle */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		42EE60B41C2A9654007CFCB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42EE60C91C2A9886007CFCB4 /* six.png in Resources */,
+				42EE60C81C2A9886007CFCB4 /* shadow.png in Resources */,
+				42EE60CA1C2A9886007CFCB4 /* three.png in Resources */,
+				42EE60C71C2A9886007CFCB4 /* one.png in Resources */,
+				42EE60CB1C2A9886007CFCB4 /* two.png in Resources */,
+				42EE60C61C2A9886007CFCB4 /* jiantou.png in Resources */,
+				42EE60C41C2A9886007CFCB4 /* five.png in Resources */,
+				42EE60C51C2A9886007CFCB4 /* four.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		42EE60B21C2A9654007CFCB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5A50124B188FB9D00022E07C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -236,6 +325,57 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		42EE60B91C2A9654007CFCB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = NO;
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexHexagonal;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zywx.uexHexagonalBundle;
+				PRODUCT_NAME = uexHexagonal;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		42EE60BA1C2A9654007CFCB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = NO;
+				CONFIGURATION_BUILD_DIR = $SRCROOT/uexHexagonal;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_EXPAND_BUILD_SETTINGS = NO;
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zywx.uexHexagonalBundle;
+				PRODUCT_NAME = uexHexagonal;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		5A501270188FB9D00022E07C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -340,6 +480,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		42EE60BB1C2A9654007CFCB4 /* Build configuration list for PBXNativeTarget "uexHexagonalBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42EE60B91C2A9654007CFCB4 /* Debug */,
+				42EE60BA1C2A9654007CFCB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5A50124A188FB9D00022E07C /* Build configuration list for PBXProject "EUExHexagonal" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
