@@ -45,7 +45,7 @@
 		42EE60C11C2A9886007CFCB4 /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = six.png; sourceTree = "<group>"; };
 		42EE60C21C2A9886007CFCB4 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
 		42EE60C31C2A9886007CFCB4 /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
-		5A50124F188FB9D00022E07C /* libEUExHexagonal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libEUExHexagonal.a; path = libuexHexagonal.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A50124F188FB9D00022E07C /* libuexHexagonal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libuexHexagonal.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A501252188FB9D00022E07C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5A501256188FB9D00022E07C /* EUExHexagonal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EUExHexagonal-Prefix.pch"; sourceTree = "<group>"; };
 		5A501259188FB9D00022E07C /* EUExHexagonal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EUExHexagonal.m; sourceTree = "<group>"; };
@@ -121,7 +121,7 @@
 		5A501250188FB9D00022E07C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5A50124F188FB9D00022E07C /* libEUExHexagonal.a */,
+				5A50124F188FB9D00022E07C /* libuexHexagonal.a */,
 				42EE60B61C2A9654007CFCB4 /* uexHexagonal.bundle */,
 			);
 			name = Products;
@@ -249,7 +249,7 @@
 			);
 			name = EUExHexagonal;
 			productName = EUExHexagonal;
-			productReference = 5A50124F188FB9D00022E07C /* libEUExHexagonal.a */;
+			productReference = 5A50124F188FB9D00022E07C /* libuexHexagonal.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
