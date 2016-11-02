@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2143DD3F1DC98AE400A4AFFB /* iCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2143DD3E1DC98AE400A4AFFB /* iCarousel.framework */; };
+		2143DD401DC98B2900A4AFFB /* iCarousel.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2143DD3E1DC98AE400A4AFFB /* iCarousel.framework */; };
 		42EE60C41C2A9886007CFCB4 /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60BC1C2A9886007CFCB4 /* five.png */; };
 		42EE60C51C2A9886007CFCB4 /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60BD1C2A9886007CFCB4 /* four.png */; };
 		42EE60C61C2A9886007CFCB4 /* jiantou.png in Resources */ = {isa = PBXBuildFile; fileRef = 42EE60BE1C2A9886007CFCB4 /* jiantou.png */; };
@@ -19,7 +21,6 @@
 		5A50125A188FB9D00022E07C /* EUExHexagonal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501259188FB9D00022E07C /* EUExHexagonal.m */; };
 		5A501291188FBA220022E07C /* BBCyclingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A50127F188FBA220022E07C /* BBCyclingLabel.m */; };
 		5A501292188FBA220022E07C /* EUExNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501281188FBA220022E07C /* EUExNavigationView.m */; };
-		5A501293188FBA220022E07C /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501283188FBA220022E07C /* iCarousel.m */; };
 		5A501294188FBA220022E07C /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A501290188FBA220022E07C /* ReflectionView.m */; };
 /* End PBXBuildFile section */
 
@@ -27,15 +28,17 @@
 		5A50124D188FB9D00022E07C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
+			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
+				2143DD401DC98B2900A4AFFB /* iCarousel.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2143DD3E1DC98AE400A4AFFB /* iCarousel.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iCarousel.framework; sourceTree = "<group>"; };
 		42EE60B61C2A9654007CFCB4 /* uexHexagonal.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uexHexagonal.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		42EE60BC1C2A9886007CFCB4 /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
 		42EE60BD1C2A9886007CFCB4 /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
@@ -58,8 +61,6 @@
 		5A50127F188FBA220022E07C /* BBCyclingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBCyclingLabel.m; sourceTree = "<group>"; };
 		5A501280188FBA220022E07C /* EUExNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EUExNavigationView.h; sourceTree = "<group>"; };
 		5A501281188FBA220022E07C /* EUExNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EUExNavigationView.m; sourceTree = "<group>"; };
-		5A501282188FBA220022E07C /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
-		5A501283188FBA220022E07C /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 		5A501285188FBA220022E07C /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
 		5A501286188FBA220022E07C /* JSONParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONParser.h; sourceTree = "<group>"; };
 		5A501287188FBA220022E07C /* MD5Digest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MD5Digest.h; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2143DD3F1DC98AE400A4AFFB /* iCarousel.framework in Frameworks */,
 				5A501253188FB9D00022E07C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -173,8 +175,7 @@
 				5A50127D188FBA220022E07C /* BBCyclingLabel */,
 				5A501280188FBA220022E07C /* EUExNavigationView.h */,
 				5A501281188FBA220022E07C /* EUExNavigationView.m */,
-				5A501282188FBA220022E07C /* iCarousel.h */,
-				5A501283188FBA220022E07C /* iCarousel.m */,
+				2143DD3E1DC98AE400A4AFFB /* iCarousel.framework */,
 				5A501284188FBA220022E07C /* JSON */,
 				5A50128E188FBA220022E07C /* ReflectionView */,
 			);
@@ -315,7 +316,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A501291188FBA220022E07C /* BBCyclingLabel.m in Sources */,
-				5A501293188FBA220022E07C /* iCarousel.m in Sources */,
 				5A501292188FBA220022E07C /* EUExNavigationView.m in Sources */,
 				5A50125A188FB9D00022E07C /* EUExHexagonal.m in Sources */,
 				5A501294188FBA220022E07C /* ReflectionView.m in Sources */,
@@ -454,6 +454,10 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexHexagonal/";
 				DSTROOT = /tmp/EUExHexagonal.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExHexagonal/sourceCode",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExHexagonal/EUExHexagonal-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
@@ -469,6 +473,10 @@
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/uexHexagonal/";
 				DSTROOT = /tmp/EUExHexagonal.dst;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EUExHexagonal/sourceCode",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EUExHexagonal/EUExHexagonal-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
