@@ -8,5 +8,6 @@
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
     #import "EUtility.h"
+    #import <iCarousel/iCarousel.h>
     #define UEX_BUNDLE [EUtility bundleForPlugin:@"uexHexagonal"]
 #endif

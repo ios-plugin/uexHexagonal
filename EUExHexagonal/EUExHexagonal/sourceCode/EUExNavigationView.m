@@ -9,7 +9,6 @@
 #import "EUExNavigationView.h"
 #import <QuartzCore/QuartzCore.h>
 #import "EUExHexagonal.h"
-#import "iCarousel.h"
 #import "ReflectionView.h"
 #import "BBCyclingLabel.h"
 
